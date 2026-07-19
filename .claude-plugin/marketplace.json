@@ -9,9 +9,9 @@
     {
       "name": "collectif-tariqa-pro-process",
       "source": "./",
-      "description": "Parcours Process / Opérations du Collectif Tariqa PRO (BETA) : structurer sa boîte pour passer de solo à équipe. 8 étapes guidées par Coach Zaki — vision/mission/valeurs, plan stratégique, diagnostic du goulot, procédures, CRM & données, équipe, délégation & pilotage, mise en place. Prérequis : le parcours CTP.",
+      "description": "Parcours Process / Opérations du Collectif Tariqa PRO (BETA) : structurer sa boîte une fois que l'offre vend — vision, plan stratégique, diagnostic du goulot, SOP, outils & données, équipe, délégation, cadence. Prérequis : le parcours CTP.",
       "category": "methode",
-      "keywords": ["tariqa-pro", "process", "operations", "structuration", "sop", "crm", "recrutement", "delegation", "pilotage", "coach-zaki"]
+      "keywords": ["tariqa-pro", "process", "operations", "sop", "delegation", "recrutement", "equipe", "crm", "coach-zaki"]
     }
   ]
 }

@@ -1,19 +1,12 @@
-# Changelog — Parcours Process / Opérations
+# Changelog — parcours Process / Opérations
 
-## 0.1.0-beta — 2026-07-19
+## 0.1.0-beta
 
-Première version en test (Collectif Tariqa PRO, 5e pilier).
+Première version de test, envoyée à un petit groupe.
 
-- **Introduction obligatoire** avant toute question : situe le pilier dans les 6, donne l'objectif
-  et le pourquoi, déroule la carte des 8 étapes, pose le contrat de fonctionnement, annonce le
-  résultat final. Repère « tu es ici » à l'ouverture de chaque étape.
-- **8 étapes** : Vision/Mission/Valeurs · Plan stratégique · Diagnostic-goulot · Procédures (SOP) ·
-  Outils & données (CRM) · Équipe · Délégation & rythme · Mise en place. Plus une porte d'entrée
-  qui vérifie le stade.
-- **Jamais de page blanche** : Coach Zaki charge les livrables du parcours CTP et arrive avec des
-  propositions ; le membre corrige et tranche.
-- **Règle anti-PDF-mort** : chaque livrable sort avec un outil vivant, un rituel et un lieu.
-- **Système de vérification** : une étape ne se valide que si sa checklist est complète — et le
-  parcours se termine par un test unique : le dirigeant a-t-il récupéré du temps ?
-- **Accessibilité** : tout livrable peut être dicté ; l'orthographe n'est jamais commentée.
-- Coach Zaki et sa doctrine restent dans `ctp-plugin` — jamais dupliqués ici.
+- 8 modules : vision/mission/valeurs, plan stratégique, diagnostic du goulot, SOP,
+  outils & données (CRM), équipe, délégation & rythme, export.
+- Chaque module produit un livrable **et** un outil d'implémentation — jamais un document mort.
+- Coach Zaki arrive avec des propositions tirées des livrables amont, jamais une page blanche.
+- Gate de prérequis : le parcours CTP doit être fait (persona, offre, positionnement, voix).
+- Moteur ≠ donnée : le parcours est distribuable tel quel, la situation du membre reste chez lui.

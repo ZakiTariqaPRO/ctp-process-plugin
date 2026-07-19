@@ -4,64 +4,76 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Parcours Process — Collectif Tariqa PRO</title>
-<meta name="description" content="Le parcours qui aide un membre du Collectif Tariqa PRO à structurer sa boîte pour passer de solo à équipe. 5e des 6 piliers.">
+<meta name="description" content="Structure ta boîte pour passer de solo à équipe. Le 5e des 6 piliers du Collectif Tariqa PRO.">
 <style>
   :root{
-    --beige:#F3EDE3; --beige-2:#EAE1D3; --noir:#14110E; --noir-2:#2A241D;
-    --or:#B2892F; --or-clair:#D8B45A; --blanc:#FFFDF9; --gris:#6B6157;
+    --beige:#F3EDE3; --beige-2:#E6DCCC; --noir:#14110E; --or:#B2892F; --or-clair:#D8B45A;
+    --blanc:#FFFDF9; --gris:#6B6157; --vert:#4A7C59;
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--beige);color:var(--noir);
     font-family:"Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif;
     line-height:1.65;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:820px;margin:0 auto;padding:0 24px}
-  header{background:var(--noir);color:var(--blanc);padding:72px 0 64px}
-  .kicker{color:var(--or-clair);font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;
-    font-weight:700;margin:0 0 18px}
-  h1{font-size:clamp(2rem,5.5vw,3.1rem);line-height:1.12;margin:0 0 20px;font-weight:800;letter-spacing:-.02em}
-  .lead{font-size:1.14rem;color:#E6DFD3;margin:0 0 28px;max-width:60ch}
-  .obj{border-left:3px solid var(--or);padding:14px 0 14px 20px;margin:28px 0 0;
-    font-size:1.16rem;font-weight:700;color:var(--blanc)}
-  .beta{display:inline-block;margin-top:26px;background:rgba(216,180,90,.14);color:var(--or-clair);
-    border:1px solid rgba(216,180,90,.4);border-radius:999px;padding:6px 15px;font-size:.8rem;font-weight:700}
-  section{padding:60px 0;border-bottom:1px solid var(--beige-2)}
+  .wrap{max-width:780px;margin:0 auto;padding:0 22px}
+  header{background:var(--noir);color:var(--blanc);padding:64px 0 56px}
+  .kicker{color:var(--or-clair);font-size:.76rem;letter-spacing:.2em;text-transform:uppercase;
+    font-weight:700;margin:0 0 16px}
+  h1{font-size:clamp(1.9rem,5vw,2.8rem);line-height:1.15;margin:0 0 18px;font-weight:800;letter-spacing:-.02em}
+  .lead{font-size:1.1rem;color:#E6DFD3;margin:0;max-width:58ch}
+  .obj{border-left:3px solid var(--or);padding:12px 0 12px 18px;margin:26px 0 0;
+    font-size:1.1rem;font-weight:700;color:var(--blanc)}
+  .beta{display:inline-block;margin-top:24px;background:rgba(216,180,90,.14);color:var(--or-clair);
+    border:1px solid rgba(216,180,90,.4);border-radius:999px;padding:6px 14px;font-size:.78rem;font-weight:700}
+  section{padding:54px 0;border-bottom:1px solid var(--beige-2)}
   section:last-of-type{border-bottom:0}
-  h2{font-size:1.55rem;margin:0 0 8px;font-weight:800;letter-spacing:-.01em}
-  .sub{color:var(--gris);margin:0 0 28px}
-  .piliers{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:0;list-style:none}
-  .piliers li{background:var(--blanc);border:1px solid var(--beige-2);border-radius:8px;
-    padding:9px 14px;font-size:.92rem;color:var(--gris)}
-  .piliers li.on{background:var(--noir);color:var(--blanc);border-color:var(--noir);font-weight:700}
+  h2{font-size:1.45rem;margin:0 0 8px;font-weight:800;letter-spacing:-.01em}
+  h3{font-size:1.02rem;margin:0 0 6px;font-weight:700}
+  .sub{color:var(--gris);margin:0 0 26px}
   .steps{list-style:none;padding:0;margin:0;counter-reset:s}
-  .steps li{counter-increment:s;background:var(--blanc);border:1px solid var(--beige-2);
-    border-radius:12px;padding:18px 20px 18px 62px;margin-bottom:10px;position:relative}
-  .steps li::before{content:counter(s);position:absolute;left:18px;top:17px;width:28px;height:28px;
+  .steps>li{counter-increment:s;background:var(--blanc);border:1px solid var(--beige-2);
+    border-radius:12px;padding:20px 22px 20px 62px;margin-bottom:12px;position:relative}
+  .steps>li::before{content:counter(s);position:absolute;left:19px;top:19px;width:29px;height:29px;
     background:var(--or);color:var(--noir);border-radius:50%;display:grid;place-items:center;
     font-weight:800;font-size:.9rem}
-  .steps strong{display:block;font-size:1.02rem}
-  .steps span{color:var(--gris);font-size:.95rem}
-  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
-  .card{background:var(--blanc);border:1px solid var(--beige-2);border-radius:12px;padding:20px}
-  .card h3{margin:0 0 6px;font-size:1rem}
-  .card p{margin:0;color:var(--gris);font-size:.94rem}
-  .gate{background:var(--noir);color:var(--blanc);border-radius:14px;padding:26px 28px}
+  .steps p{margin:0 0 8px;color:var(--gris);font-size:.95rem}
+  .cmd{background:var(--noir);color:#F1EAE0;border-radius:9px;padding:12px 14px;margin:10px 0 0;
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86rem;
+    display:flex;align-items:center;gap:10px;justify-content:space-between;word-break:break-all}
+  .cmd .copy{background:var(--or);color:var(--noir);border:0;border-radius:6px;padding:5px 11px;
+    font-size:.74rem;font-weight:800;cursor:pointer;flex-shrink:0;font-family:inherit}
+  .cmd .copy:hover{background:var(--or-clair)}
+  table{width:100%;border-collapse:collapse;background:var(--blanc);border:1px solid var(--beige-2);
+    border-radius:12px;overflow:hidden;font-size:.94rem}
+  th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--beige-2)}
+  th{background:var(--beige-2);font-size:.8rem;text-transform:uppercase;letter-spacing:.06em}
+  tr:last-child td{border-bottom:0}
+  .ok{color:var(--vert);font-weight:700;white-space:nowrap}
+  .soon{color:var(--gris);white-space:nowrap}
+  .now td{background:rgba(178,137,47,.09);font-weight:700}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(228px,1fr));gap:12px}
+  .card{background:var(--blanc);border:1px solid var(--beige-2);border-radius:12px;padding:18px}
+  .card p{margin:0;color:var(--gris);font-size:.93rem}
+  .gate{background:var(--noir);color:var(--blanc);border-radius:14px;padding:24px 26px}
   .gate h2{color:var(--blanc)}
   .gate ul{margin:0;padding-left:20px}
   .gate li{margin-bottom:8px;color:#E6DFD3}
-  .gate .note{color:var(--or-clair);font-size:.93rem;margin:18px 0 0}
-  .cta{display:inline-block;background:var(--or);color:var(--noir);text-decoration:none;
-    font-weight:800;padding:15px 30px;border-radius:10px;margin-top:8px}
-  .cta:hover{background:var(--or-clair)}
-  code{background:var(--blanc);border:1px solid var(--beige-2);border-radius:6px;
-    padding:2px 7px;font-size:.9em}
-  footer{background:var(--noir);color:#B8AE9F;padding:34px 0;font-size:.9rem;text-align:center}
+  .gate .note{color:var(--or-clair);font-size:.92rem;margin:16px 0 0}
+  details{background:var(--blanc);border:1px solid var(--beige-2);border-radius:10px;
+    padding:14px 18px;margin-bottom:9px}
+  summary{font-weight:700;cursor:pointer}
+  details p{margin:10px 0 0;color:var(--gris);font-size:.95rem}
+  p code{background:var(--blanc);border:1px solid var(--beige-2);border-radius:6px;padding:2px 7px;font-size:.9em}
+  footer{background:var(--noir);color:#B8AE9F;padding:32px 0;font-size:.89rem;text-align:center}
   footer .tag{color:var(--or-clair);font-style:italic;margin-top:6px}
+  a{color:var(--or)}
   @media (prefers-color-scheme: dark){
     body{background:#100E0B;color:#F1EAE0}
-    .card,.steps li,.piliers li{background:#191512;border-color:#2A241D}
-    .sub,.card p,.steps span{color:#A79C8D}
+    .card,.steps>li,details,table{background:#191512;border-color:#2A241D}
+    th{background:#221D18}
+    th,td{border-color:#2A241D}
+    .sub,.card p,.steps p,details p{color:#A79C8D}
     section{border-color:#241F1A}
-    code{background:#191512;border-color:#2A241D;color:#F1EAE0}
+    p code{background:#191512;border-color:#2A241D;color:#F1EAE0}
   }
 </style>
 </head>
@@ -69,10 +81,10 @@
 
 <header>
   <div class="wrap">
-    <p class="kicker">Collectif Tariqa PRO · Pilier 5 sur 6</p>
-    <h1>Parcours Process<br>&amp; Opérations</h1>
-    <p class="lead">Le parcours qui t'aide à structurer ta boîte au moment où tu passes
-      de « je fais tout » à « on est plusieurs ».</p>
+    <p class="kicker">Collectif Tariqa PRO · Bloc 5 sur 7</p>
+    <h1>Structure ta boîte,<br>sors du guidon.</h1>
+    <p class="lead">Le parcours pour le moment où tu passes de « je fais tout »
+      à « on est plusieurs » — et où c'est toi qui es devenu le frein.</p>
     <p class="obj">L'objectif : que ta boîte tourne sans que tu sois au centre de tout.</p>
     <span class="beta">BETA — en test</span>
   </div>
@@ -81,14 +93,24 @@
 <section>
   <div class="wrap">
     <h2>Où tu es dans la méthode</h2>
-    <p class="sub">Les six piliers du Collectif Tariqa PRO, dans l'ordre.</p>
-    <ul class="piliers">
-      <li>Mindset</li><li>Vente</li><li>Produit</li><li>Marketing</li>
-      <li class="on">Opérations</li><li>Finances</li>
-    </ul>
-    <p class="sub" style="margin-top:18px">Ce pilier arrive à un moment précis : ton offre vend
-      déjà, tes clients rentrent, et c'est <strong>toi</strong> qui es devenu le frein.
-      Ce qui t'a amené jusqu'ici ne t'amènera pas plus loin.</p>
+    <p class="sub">La méthode complète, c'est sept blocs. On les livre au fur et à mesure —
+      voici ce qui est disponible aujourd'hui.</p>
+    <table>
+      <thead><tr><th>Bloc</th><th>Ce que tu y fais</th><th>Statut</th></tr></thead>
+      <tbody>
+        <tr><td><strong>1 · Mindset</strong></td><td>installer l'état d'esprit qui tient dans la durée</td><td class="soon">bientôt</td></tr>
+        <tr><td><strong>Pont Clarté</strong></td><td>persona → offre → positionnement → voix</td><td class="ok">✓ disponible</td></tr>
+        <tr><td><strong>2 · Vente</strong></td><td>vendre, et le prouver par la répétition</td><td class="soon">à venir</td></tr>
+        <tr><td><strong>3 · Produit</strong></td><td>construire ce que tu livres</td><td class="soon">à venir</td></tr>
+        <tr><td><strong>4 · Marketing</strong></td><td>être trouvé, être choisi</td><td class="soon">à venir</td></tr>
+        <tr class="now"><td><strong>5 · Opérations</strong></td><td>structurer ta boîte — <em>ce parcours</em></td><td class="ok">✓ disponible</td></tr>
+        <tr><td><strong>6 · Finances</strong></td><td>piloter l'argent sainement</td><td class="soon">à venir</td></tr>
+        <tr><td><strong>+ Stratégie de contenu</strong></td><td>YouTube : stratégie et production</td><td class="ok">✓ disponible</td></tr>
+      </tbody>
+    </table>
+    <p class="sub" style="margin-top:20px">Chaque bloc se ferme sur une <strong>porte</strong> —
+      et une porte ne s'ouvre pas sur une bonne intention, mais sur des <strong>actes vérifiables</strong>,
+      validés en call. Ce parcours-ci suppose que tu as déjà passé les précédentes.</p>
   </div>
 </section>
 
@@ -96,81 +118,143 @@
   <div class="wrap">
     <div class="gate">
       <h2>Est-ce le bon moment pour toi ?</h2>
-      <p style="color:#E6DFD3;margin:0 0 16px">Une porte d'entrée vérifie trois choses avant de démarrer :</p>
+      <p style="color:#E6DFD3;margin:0 0 14px">Le parcours vérifie trois choses avant de démarrer :</p>
       <ul>
         <li>ton offre a été <strong>vendue plusieurs fois</strong> — ce n'est plus un test ;</li>
         <li>ton marketing amène des clients de façon <strong>prévisible</strong> ;</li>
         <li>tu portes trop de choses seul : tu dois <strong>déléguer ou recruter</strong>.</li>
       </ul>
-      <p class="note">Si ce n'est pas encore le cas, le parcours te le dit franchement et te renvoie
-        à l'étape d'avant. Structurer une boîte qui n'a pas trouvé son marché, c'est mettre la
-        charrue avant les bœufs.</p>
+      <p class="note">Si ce n'est pas encore le cas, Coach Zaki te le dit franchement et te renvoie
+        au bloc d'avant. Structurer une boîte qui n'a pas trouvé son marché, c'est mettre la charrue
+        avant les bœufs.</p>
     </div>
   </div>
 </section>
 
 <section>
   <div class="wrap">
-    <h2>Les 8 étapes</h2>
-    <p class="sub">Une étape à la fois. Chacune produit quelque chose de concret.</p>
-    <ol class="steps">
-      <li><strong>Vision, Mission, Valeurs</strong><span>l'âme de ta boîte, traduite en comportements concrets</span></li>
-      <li><strong>Plan stratégique</strong><span>tes objectifs sur 9 sphères, de l'année jusqu'à ta semaine</span></li>
-      <li><strong>Diagnostic</strong><span>LE point qui bloque ta croissance, et tes process à documenter</span></li>
-      <li><strong>Procédures</strong><span>tes process critiques sortis de ta tête, et ton manuel</span></li>
-      <li><strong>Outils &amp; données</strong><span>ton CRM et une donnée propre sur laquelle décider</span></li>
-      <li><strong>Équipe</strong><span>qui fait quoi, et qui tu recrutes en premier</span></li>
-      <li><strong>Délégation &amp; rythme</strong><span>ton tableau de bord et ton rythme de pilotage</span></li>
-      <li><strong>Mise en place</strong><span>tout branché à ton quotidien, pas rangé dans un dossier</span></li>
-    </ol>
-    <p class="sub" style="margin-top:22px"><strong>Ordre de grandeur :</strong> structurer une
-      boîte, c'est un chantier de <strong>3 à 9 mois</strong>. On avance par cycles, et chaque
-      étape sert dès qu'elle est posée.</p>
+    <h2>Ce que ça va t'apporter</h2>
+    <p class="sub">Huit étapes, un livrable concret à chaque fois.</p>
+    <table>
+      <tbody>
+        <tr><td><strong>1 · Vision, Mission, Valeurs</strong></td><td>l'âme de ta boîte, traduite en comportements concrets</td></tr>
+        <tr><td><strong>2 · Plan stratégique</strong></td><td>tes objectifs sur 9 sphères, de l'année jusqu'à ta semaine</td></tr>
+        <tr><td><strong>3 · Diagnostic</strong></td><td>LE point qui bloque ta croissance, et tes process à documenter</td></tr>
+        <tr><td><strong>4 · Procédures</strong></td><td>tes process critiques sortis de ta tête, et ton manuel</td></tr>
+        <tr><td><strong>5 · Outils &amp; données</strong></td><td>ton CRM et une donnée propre sur laquelle décider</td></tr>
+        <tr><td><strong>6 · Équipe</strong></td><td>qui fait quoi, et qui tu recrutes en premier</td></tr>
+        <tr><td><strong>7 · Délégation &amp; rythme</strong></td><td>ton tableau de bord et ton rythme de pilotage</td></tr>
+        <tr><td><strong>8 · Mise en place</strong></td><td>tout branché à ton quotidien, pas rangé dans un dossier</td></tr>
+      </tbody>
+    </table>
+    <p class="sub" style="margin-top:20px"><strong>Ordre de grandeur :</strong> structurer une boîte,
+      c'est un chantier de <strong>3 à 9 mois</strong>. On avance par cycles, et chaque étape sert
+      dès qu'elle est posée.</p>
   </div>
 </section>
 
 <section>
   <div class="wrap">
-    <h2>Comment ça se passe</h2>
+    <h2>Installation</h2>
+    <p class="sub">Trois minutes. Si tu as déjà fait le parcours CTP, tu as déjà les étapes 1 à 3.</p>
+    <ol class="steps">
+      <li>
+        <h3>Ouvre ton dossier de travail</h3>
+        <p>Le parcours écrit tes livrables dedans. <strong>Si tu as déjà fait le parcours CTP,
+          utilise le même dossier</strong> — Process va lire ton persona, ton offre, ton
+          positionnement et ta voix pour te faire des propositions au lieu de te laisser devant
+          une page blanche.</p>
+      </li>
+      <li>
+        <h3>Installe la boîte à outils du Collectif (prérequis)</h3>
+        <p>Elle contient le parcours CTP et <strong>Coach Zaki</strong>, qui porte tout le parcours.
+          Colle ce lien dans Claude et demande l'installation :</p>
+        <div class="cmd"><span>https://github.com/ZakiTariqaPRO/ctp-plugin.git</span><button class="copy">Copier</button></div>
+      </li>
+      <li>
+        <h3>Installe le parcours Process</h3>
+        <p>Même chose avec ce lien :</p>
+        <div class="cmd"><span>https://github.com/ZakiTariqaPRO/ctp-process-plugin.git</span><button class="copy">Copier</button></div>
+      </li>
+      <li>
+        <h3>Lance</h3>
+        <p>Écris simplement :</p>
+        <div class="cmd"><span>lance le parcours Process</span><button class="copy">Copier</button></div>
+        <p style="margin-top:10px">« Je veux structurer ma boîte », « je suis le goulot de ma boîte »
+          ou « comment déléguer » fonctionnent aussi.</p>
+      </li>
+    </ol>
+    <p class="sub" style="margin-top:18px">Besoin du détail pas à pas ?
+      <a href="installation.html">Voir la page d'installation →</a></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Pendant le parcours</h2>
     <p class="sub">Pris par la main sur le chemin — jamais sur le fond.</p>
     <div class="cards">
+      <div class="card"><h3>Tu sais toujours où tu es</h3><p>Une introduction te situe dans les
+        sept blocs, puis un repère de progression s'affiche à chaque étape.</p></div>
       <div class="card"><h3>Jamais de page blanche</h3><p>Coach Zaki arrive avec des propositions
         tirées de ce qu'il sait déjà de toi. Tu corriges, tu tranches.</p></div>
-      <div class="card"><h3>Il te challenge</h3><p>Une réponse floue ou trop confortable, il te le
-        dit. C'est le seul moyen que ça serve à quelque chose.</p></div>
-      <div class="card"><h3>Tu vois où tu en es</h3><p>Un repère de progression à chaque étape.
-        Tu ne te demandes jamais où tu en es.</p></div>
+      <div class="card"><h3>Une étape à la fois</h3><p>La suivante ne s'ouvre que quand celle-ci
+        est vraiment bouclée. On ne construit pas sur du sable.</p></div>
       <div class="card"><h3>Tu peux tout dicter</h3><p>Rien n'oblige à écrire. Tu parles, Coach
-        Zaki met en forme et te fait valider.</p></div>
+        Zaki met en forme. L'orthographe n'est jamais un sujet.</p></div>
     </div>
   </div>
 </section>
 
 <section>
   <div class="wrap">
-    <h2>La règle anti-PDF-mort</h2>
-    <p class="sub">Le risque de ce genre de travail : de beaux documents qu'on ne rouvre jamais.</p>
-    <div class="cards">
-      <div class="card"><h3>1 · Un outil vivant</h3><p>Éditable, fait pour être modifié quand la
-        réalité change. Jamais un PDF figé.</p></div>
-      <div class="card"><h3>2 · Un rituel</h3><p>Le moment où tu le revois, posé dans ton agenda.
-        Sans rituel, ça meurt.</p></div>
-      <div class="card"><h3>3 · Un lieu</h3><p>Où il vit et se consulte, visible par ton équipe.
-        Ce qui n'est pas visible ne guide personne.</p></div>
-    </div>
-    <p class="sub" style="margin-top:22px">Une étape n'est pas terminée tant que les trois ne sont
-      pas posées. Et à la fin, un test simple : <strong>as-tu récupéré du temps ?</strong>
-      Si non, on a raté quelque chose — et on reprend.</p>
+    <h2>Quand tu bloques — Coach Zaki</h2>
+    <p class="sub">Il n'est pas là pour te faire plaisir.</p>
+    <p>Si une réponse est floue, trop confortable, ou si tu te racontes une histoire, il te reprend.
+      C'est le seul moyen que ce travail serve à quelque chose. Tu peux le contredire — c'est ta
+      boîte, tu tranches. Et si tu préfères qu'il se taise sauf quand tu l'appelles, dis-lui
+      <code>passe Coach Zaki en sur-demande</code>.</p>
+    <p style="margin-top:14px">Chaque étape se termine par une <strong>action datée à faire dans les
+      48 h</strong>. C'est là que ça devient réel.</p>
   </div>
 </section>
 
 <section>
   <div class="wrap">
-    <h2>Commencer</h2>
-    <p class="sub">Il te faut d'abord le socle : le parcours CTP et Coach Zaki.</p>
-    <a class="cta" href="installation.html">Voir l'installation →</a>
-    <p class="sub" style="margin-top:24px">Une fois installé, lance simplement :
-      <code>lance le parcours Process</code></p>
+    <h2>À la fin</h2>
+    <p class="sub">Ce que tu as en main.</p>
+    <p>Ton cap écrit et partagé avec ton équipe · un plan d'objectifs qui descend jusqu'à ta semaine ·
+      tes process critiques documentés dans un manuel · un CRM et une donnée propre · un organigramme
+      et de quoi recruter juste · un tableau de bord et un rythme de pilotage.</p>
+    <p style="margin-top:14px"><strong>Et surtout : du temps récupéré.</strong> C'est le test final
+      du parcours — si ton agenda ne s'est pas dégagé, on a raté quelque chose, et on reprend.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Questions fréquentes</h2>
+    <details><summary>Je n'ai pas fait le parcours CTP, je peux quand même ?</summary>
+      <p>Techniquement oui, mais tu perds ce qui fait sa force : sans ton persona, ton offre et ton
+        positionnement, Coach Zaki ne peut pas te faire de propositions — il devra tout te demander.
+        Fais le parcours CTP d'abord, c'est plus rapide au total.</p></details>
+    <details><summary>Je suis encore seul, sans équipe. C'est pour moi ?</summary>
+      <p>Oui, si ton offre vend déjà régulièrement et que tu es débordé. Tu portes déjà plusieurs
+        casquettes — le parcours te les fait poser à plat et te prépare à déléguer. En revanche si
+        ton offre ne vend pas encore, reviens plus tard : on te le dira dès les premières questions.</p></details>
+    <details><summary>Combien de temps ça prend ?</summary>
+      <p>Une étape peut prendre une séance ou plusieurs. L'ensemble, c'est un chantier de 3 à 9 mois
+        selon ton rythme. Mais chaque étape sert dès qu'elle est posée — tu n'attends pas la fin
+        pour en profiter.</p></details>
+    <details><summary>Je peux m'arrêter et reprendre plus tard ?</summary>
+      <p>Oui. Relance <code>lance le parcours Process</code> : Coach Zaki te rappelle où tu t'étais
+        arrêté et ce que tu avais tranché. Tu peux aussi demander « où j'en suis ? » à tout moment.</p></details>
+    <details><summary>Est-ce que mes données partent quelque part ?</summary>
+      <p>Non. Le parcours est un moteur : la méthode, les questions, les grilles. Toute ta matière
+        (ta boîte, tes process, ton équipe) reste chez toi, dans ton dossier.</p></details>
+    <details><summary>Faut-il payer des outils ?</summary>
+      <p>Non. Chaque outil proposé a une voie gratuite — un document, un tableur, ton agenda. Les
+        outils payants restent optionnels, et leur coût est annoncé.</p></details>
   </div>
 </section>
 
@@ -181,5 +265,16 @@
   </div>
 </footer>
 
+<script>
+  document.querySelectorAll('.cmd .copy').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var txt=btn.parentNode.textContent.replace('Copier','').trim();
+      navigator.clipboard.writeText(txt).then(function(){
+        var old=btn.textContent;btn.textContent='Copié ✓';
+        setTimeout(function(){btn.textContent=old;},1500);
+      });
+    });
+  });
+</script>
 </body>
 </html>

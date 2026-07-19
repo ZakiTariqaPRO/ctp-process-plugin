@@ -25,9 +25,9 @@ une équipe, et un pilotage qui ne dépend plus de son énergie au jour le jour.
 - **La donnée = la situation du membre.** Sa boîte, ses process, son équipe. Vit dans la
   conversation et dans les fichiers produits (`process/<slug>/*`).
 
-Le fond de ce parcours est issu du terrain et des cadres éprouvés de la structuration
-d'entreprise — **tamisé par les 6 piliers et réapproprié dans la voix du Collectif Tariqa PRO**.
-On enseigne la mécanique, jamais le nom de celui qui l'a formulée.
+Le fond de ce parcours a été distillé puis passé au filtre du Collectif Tariqa PRO : on
+n'invente pas la matière, on la tamise. Les principes sont réécrits dans notre voix — on ne
+cite jamais de source extérieure au membre.
 
 ## ⛔ Prérequis — le parcours CTP et Coach Zaki
 
@@ -149,7 +149,7 @@ jour à la fin de chaque module.
 
 - **Mots interdits** : *hacks, hustle, revenu passif, growth hacking.*
 - **Pas de montants-preuve.** On prend la mécanique, jamais le chiffre-trophée.
-  (cf. règle chiffres d'argent CTP.)
+  La preuve, c'est la transformation. (cf. règle chiffres d'argent CTP.)
 - **6 piliers dans l'ordre** : Mindset, Vente, Produit, Marketing, **Opérations**, Finances.
   Ce parcours = pilier **Opérations** (que le membre appelle souvent « Process »).
 - Toujours **« Collectif Tariqa PRO »** en entier.

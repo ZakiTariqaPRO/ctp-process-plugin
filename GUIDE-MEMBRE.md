@@ -1,84 +1,68 @@
-# Guide du membre — Parcours Process / Opérations
+# Guide bêta — parcours Process / Opérations du Collectif Tariqa PRO
 
-Ce guide t'explique comment utiliser le parcours au quotidien. Il ne remplace pas le parcours :
-c'est Coach Zaki qui te guide, étape par étape. Ici, juste de quoi démarrer sans te poser de questions.
+> ⚠️ **Version de test.** Tu fais partie des premiers à l'essayer. Ton retour sert directement
+> à l'améliorer.
 
----
+## C'est pour qui
 
-## 1. Avant de commencer
+Pour le fondateur qui a **déjà une offre qui vend** — vendue plusieurs fois, pas juste une idée —
+et dont le marketing commence à ramener des clients de façon prévisible.
 
-**Vérifie que tu as le socle installé** (le parcours CTP + Coach Zaki) :
-https://github.com/ZakiTariqaPRO/ctp-plugin.git
+Le problème n'est plus de trouver des clients. Il est de **tenir la charge** : tout passe par toi,
+rien n'est écrit, tu n'oses pas déléguer, et ta boîte s'arrête si tu t'arrêtes.
 
-**Travaille dans un dossier dédié à ta boîte**, pas dans un dossier au hasard. Le parcours va y
-écrire tes livrables. Par exemple :
+Si tu n'en es pas encore là, ce parcours n'est pas pour toi maintenant — commence par le parcours
+CTP, et reviens quand ton offre vend.
+
+## ⛔ Prérequis
+
+Avoir fait le **parcours CTP** : persona → offre → positionnement → voix.
+👉 https://github.com/ZakiTariqaPRO/ctp-plugin
+
+Ce parcours s'appuie dessus et sur **Coach Zaki**, qui vit dans le parcours CTP. Il ne le duplique
+jamais.
+
+## Installer
+
+Écris ça à ton Claude :
 
 ```
-~/ma-boite/
+installe le plugin https://github.com/ZakiTariqaPRO/ctp-process-plugin
 ```
 
-Si tu as déjà fait le parcours CTP, travaille **dans le même dossier** — le parcours Process va
-lire ton persona, ton offre, ton positionnement et ta voix pour te faire des propositions.
-
-## 2. Lancer
-
-Ouvre Claude Code dans ce dossier et écris simplement :
+Puis lance :
 
 ```
-lance le parcours Process
+lance le parcours process
 ```
 
-D'autres formulations marchent : *« je veux structurer ma boîte »*, *« je suis le goulot de ma
-boîte »*, *« mettre en place des process »*, *« comment déléguer »*.
+## Ce que tu vas construire — 8 modules
 
-## 3. Ce qui se passe au premier lancement
+Chaque module produit **un livrable ET un outil que tu utilises vraiment** — jamais un document
+qu'on range et qu'on n'ouvre plus.
 
-1. **Une introduction** — Coach Zaki te situe dans les 6 piliers, t'explique l'objectif, te montre
-   les 8 étapes et comment on va procéder. Tu sais où tu vas avant de commencer.
-2. **Un réglage** — tu choisis si Coach Zaki est **actif** (il te reprend dès que tu restes flou —
-   recommandé) ou **sur demande**.
-3. **Trois questions** — pour vérifier que tu es au bon moment pour ce pilier.
-4. **L'étape 1 s'ouvre.**
+1. **Vision, mission, valeurs** — le cap, et les valeurs traduites en comportements observables.
+2. **Plan stratégique** — la cascade d'horizons, et ce à quoi tu renonces.
+3. **Diagnostic du goulot** — ce qui casse en premier si tu doubles. Un seul chantier.
+4. **SOP** — écrire tes process pour pouvoir les confier, et les corriger à chaque incident.
+5. **Outils & données** — ton CRM et une donnée propre, avant d'automatiser quoi que ce soit.
+6. **Équipe** — qui fait quoi, et comment tu recrutes sans te tromper.
+7. **Délégation & rythme** — sortir de l'opérationnel, et la cadence qui tient.
+8. **Export** — tout compilé, vérifiable, réutilisable.
 
-## 4. Reprendre plus tard
+## Comment ça se passe
 
-Le parcours retient où tu en es. Reviens quand tu veux et écris `lance le parcours Process` :
-Coach Zaki te rappelle où tu t'étais arrêté, ce que tu avais tranché, et ce qu'on attaque
-aujourd'hui. **Tu n'as rien à te rappeler tout seul.**
+Coach Zaki t'accompagne du début à la fin. Il arrive avec des **propositions** tirées de ton
+travail existant — jamais une page blanche. Il te challenge quand tu restes flou. À chaque étape,
+il valide avec toi avant d'avancer, et il verrouille une action dans les 48 h.
 
-Tu peux aussi demander **« où j'en suis ? »** à tout moment.
+## Ton retour
 
-## 5. Bon à savoir
+C'est ce qu'on attend de toi. Dis-nous :
 
-- **Tu peux tout dicter.** Si écrire te ralentit, parle : Coach Zaki met en forme et te fait valider.
-- **Une étape peut prendre une séance ou plusieurs.** Ce n'est pas une course.
-- **Tu peux dire « je ne suis pas d'accord ».** Coach Zaki propose, mais c'est ta boîte : tu
-  tranches. Le contredire fait partie du jeu.
-- **Change son mode quand tu veux** : *« passe Coach Zaki en sur-demande »* (ou *en actif*).
-- **Chaque étape se termine par une action datée**, à faire dans les 48 h. C'est là que ça devient réel.
+- où tu as buté, où tu n'as pas compris ;
+- ce qui t'a paru trop long, trop court, ou hors sujet ;
+- ce qui manque pour ta situation à toi ;
+- ce que tu as réellement mis en place après.
 
-## 6. Ce que tu auras à la fin
-
-Ton cap écrit et partagé avec ton équipe · un plan d'objectifs qui descend jusqu'à ta semaine ·
-tes process critiques documentés dans un manuel · un CRM et une donnée propre · un organigramme et
-de quoi recruter juste · un tableau de bord et un rythme de pilotage.
-
-Et surtout : **du temps récupéré**. C'est le test final du parcours. Si ton agenda ne s'est pas
-dégagé, dis-le — on reprend.
-
----
-
-## 🧪 Tu es en BETA — ton retour compte
-
-Ce parcours est en test. Ce qui aide le plus :
-
-- **Où tu as buté** — une question mal posée, une étape trop longue, un moment où tu t'es senti perdu.
-- **Ce qui a vraiment servi** — l'étape qui a débloqué quelque chose chez toi.
-- **Ce qui manque** — un sujet que tu attendais et qui n'y est pas.
-- **Le ton** — trop dur, pas assez, juste ?
-
-Remonte-les dans le collectif, ou directement à Zaki.
-
----
-
-**Collectif Tariqa PRO** — *Entreprendre. Ensemble. Vers Dieu.*
+Écris à zaki@tariqa.pro ou en direct sur la plateforme.
