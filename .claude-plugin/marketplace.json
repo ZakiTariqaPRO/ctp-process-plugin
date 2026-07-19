@@ -1,0 +1,17 @@
+{
+  "name": "ctp-process",
+  "owner": {
+    "name": "Collectif Tariqa PRO",
+    "email": "zaki@tariqa.pro"
+  },
+  "description": "Marketplace du Collectif Tariqa PRO — parcours Process / Opérations (5e pilier) pour les membres.",
+  "plugins": [
+    {
+      "name": "collectif-tariqa-pro-process",
+      "source": "./",
+      "description": "Parcours Process / Opérations du Collectif Tariqa PRO (BETA) : structurer sa boîte pour passer de solo à équipe. 8 étapes guidées par Coach Zaki — vision/mission/valeurs, plan stratégique, diagnostic du goulot, procédures, CRM & données, équipe, délégation & pilotage, mise en place. Prérequis : le parcours CTP.",
+      "category": "methode",
+      "keywords": ["tariqa-pro", "process", "operations", "structuration", "sop", "crm", "recrutement", "delegation", "pilotage", "coach-zaki"]
+    }
+  ]
+}

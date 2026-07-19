@@ -1,0 +1,28 @@
+{
+  "name": "collectif-tariqa-pro-process",
+  "description": "Parcours Process / Opérations du Collectif Tariqa PRO (BETA) — le 5e des 6 piliers. Pour le fondateur dont l'offre vend déjà et dont le marketing tourne, et qui doit maintenant structurer sa boîte pour passer de solo à équipe. Coach Zaki enchaîne 8 étapes guidées : vision/mission/valeurs, plan stratégique, diagnostic du goulot, procédures (SOP), outils & données (CRM), équipe & recrutement, délégation & rythme de pilotage, puis mise en place. Chaque étape produit un livrable ET un outil vivant — pas un PDF qui prend la poussière. PRÉREQUIS : le parcours CTP (persona -> offre -> positionnement -> voix) et Coach Zaki, via le plugin ctp-plugin. Moteur != donnee : le membre nourrit le systeme avec SA data.",
+  "version": "0.1.0-beta",
+  "author": {
+    "name": "Collectif Tariqa PRO",
+    "email": "zaki@tariqa.pro"
+  },
+  "homepage": "https://entrepreneur-musulman.com",
+  "keywords": [
+    "tariqa-pro",
+    "process",
+    "operations",
+    "structuration",
+    "sop",
+    "procedures",
+    "plan-strategique",
+    "vision-mission-valeurs",
+    "crm",
+    "donnees",
+    "recrutement",
+    "equipe",
+    "delegation",
+    "pilotage",
+    "kpi",
+    "coach-zaki"
+  ]
+}
